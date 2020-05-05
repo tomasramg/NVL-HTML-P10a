@@ -1,0 +1,41 @@
+<form method="post" action="miservidor.php">
+    <div>
+      <label for=”Código Postal”>Código Postal:</label>
+      <input id=”Código Postal” type=”number”>
+    </div>
+    <div>
+      <label for=”satisfacción”>Nivel de Satisfacción:</label>
+      <select id=”satisfacción”>
+        <option value=”1”>1</option>
+        <option value=”2”>2</option>
+        <option value=”3”>3</option>
+        <option value=”4”>4</option>
+        <option value=”5”>5</option>
+      </select>
+  </div>
+  <div>
+    <label for=”positivos”>Puntos Positivos del Producto:</label>
+    <textarea id=”positivos”></textarea>
+  </div>
+  <div>
+    <label for=”negativos”>Puntos Negativos del Producto:</label>
+    <textarea id=”negativos”></textarea>
+  </div>
+  <div>
+      <label for=”Servicio de entregas”>Servicio de entregas:</label>
+      <input name=”Servicio de entregas” type=”radio” value=”excelente”>excelente
+      <input name=”Servicio de entregas” type=”radio” value=”bueno”>bueno 
+      <input name=”Servicio de entregas” type=”radio” value=”regular”>regular
+      <input name=”Servicio de entregas” type=”radio” value=”malo”>malo
+  </div>
+  <div>
+<label for=”calidad”>Calidad del Producto:</label>
+      <select id=”calidad”>
+        <option value=”excelente”>excelente</option>
+        <option value=”bueno”>bueno</option>
+        <option value=”regular”>regular</option>
+        <option value=”malo”>malo</option>
+      </select>
+  </div>
+  <input type=”submit” value=”Enviar”> 
+</form>
